@@ -1,0 +1,114 @@
+.login{
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  background-color:whitesmoke;
+  padding: 30px 0px;
+  border-radius: 8%;
+ 
+
+}
+.logincon{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(228, 218, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login input{
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-bottom: 2px solid rgb(55, 29, 81);
+}
+.login button{
+  padding: 5px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(5, 5, 65);
+}
+.login a{
+  text-decoration: none;
+  color: blue;
+
+}
+.login a:hover{
+  text-decoration: underline;
+  color: rgb(224, 15, 81);
+  
+}
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 10vh;
+  background-color:rgb(3, 26, 78);
+ 
+  font-size: 22px;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color:rgb(205, 202, 203);
+}
+nav a:hover{
+  color: rgb(211, 82, 82);
+
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+.con{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:20px;
+  padding: 20px 0px;
+  background-color: white;
+}
+.con :hover{
+  color: rgb(211, 82, 82);
+}
+.prod{
+  width: 20%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+  border-radius: 7%;
+  background-color:white;
+  border: 1px  outset rgb(164, 159, 159);
+}
+.img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+p{
+  font-size: 15px;
+  text-align: justify;
+  color:rgb(3, 26, 78);;
+}
+.con button{
+  border: 1px ridge gray;
+ /* background:rgb(11, 32, 81); */
+  padding: 4px 15px;
+  font-size: 18px;
+  color:rgb(11, 32, 81);
+}
